@@ -141,7 +141,10 @@ public class Workshop {
 					}
 					
 					CarAssembler newCar = new CarAssembler(model, material, engineType, wheelType,
-							gearboxType, ,year, insured);
+							gearboxType, year, insured);
 					carList.add(newCar);
 					break;
+		}while(true);
+	}
+}
 					
